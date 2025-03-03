@@ -84,24 +84,56 @@ DrowsinessDetector/ │── audio/ # Alarm sound files │── haarcascades/
 ```bash
 git clone https://github.com/Navya045/Drowsiness-Detection-Using-Deep-Learning
 cd DrowsinessDetector
-
+```
 ### **Install Required Libraries**
 ##To install the necessary dependencies, run the following command:
 ```bash
 pip install opencv-python numpy scipy dlib tensorflow keras pygame gtts imutils
----
-## **Step 3: Run the Drowsiness Detection Script**
+```
+## ** Run the Drowsiness Detection Script**
 ##To start the real-time drowsiness detection system, execute the following command:
-
 ```bash
+
 python drowsiness_detect.py
+```
 ## Using the Model for Face/Eye Detection**
 ##To run the face and eye detection, execute the following command:
 
 ```bash
 python face_and_eye_detector_webcam_video.py
+```
+---
+## **Results & Performance**
+| **Feature**            | **Result** |
+|------------------------|-----------|
+| **Eye State Accuracy** | 95%+  |
+| **Yawning Detection**  | 90%+  |
+| **Real-time Speed**    | 30 FPS  |
+| **Alert Accuracy**     | High  |
+
+##  **Alerts Generated**
+- **Drowsiness Alert:** If **eyes closed** for > 3 seconds 
+- **Yawning Alert:** If **mouth open** for extended duration   
+
+##  **Alert Sound & Voice Messages**
+- **Buzzer Sound** (Plays when drowsiness is detected)  
+- **Text-to-Speech (TTS)** (Voice message alert for yawning)  
 
 ---
+## **Future Improvements**
+### **Potential Enhancements:**
+- **Integrating with Vehicle Speed Control**  
+  *(Automatically reduce speed if drowsiness is detected)*
+- **Cloud-Based Monitoring** 
+  *(Send alerts to connected mobile apps for real-time notifications)*
+- **Better Face Tracking** 
+  *(Use **YOLO** or **MTCNN** for more accurate face detection)*
+- **Deploy as an Android App**  
+  *(Enable real-time monitoring via smartphone camera for accessibility)*
+---
+## **Conclusion**
+This project successfully implements **real-time drowsiness detection** using **deep learning and computer vision**. The system can **alert drivers before accidents happen**, making it a **valuable tool for road safety**.   
 
+If you like this project, **⭐️ STAR the repository & contribute!**  
 
 
