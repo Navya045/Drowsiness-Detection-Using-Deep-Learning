@@ -1,7 +1,7 @@
 # 🚗💤 **Drowsiness Detection Using Deep Learning**
 A real-time **driver drowsiness detection system** using **Convolutional Neural Networks (CNNs)** to reduce road accidents caused by fatigue.
 
-## 📌 **Project Overview**
+## **Project Overview**
 - Developed an **AI-based system** to detect driver drowsiness and prevent accidents.
 - Uses **CNN-based transfer learning (MobileNet)** for accurate detection.
 - **Real-time alert system** that triggers an alarm when drowsiness is detected.
@@ -9,7 +9,7 @@ A real-time **driver drowsiness detection system** using **Convolutional Neural 
 
 ---
 
-## ⚙️ **Tech Stack**
+## **Tech Stack**
 - **Programming Language**: Python  
 - **Deep Learning Frameworks**: TensorFlow, Keras  
 - **Computer Vision**: OpenCV, Dlib  
@@ -19,7 +19,7 @@ A real-time **driver drowsiness detection system** using **Convolutional Neural 
 ---
 
 ## **Model Training**
-📌 **Neural Network Architecture:**  
+ **Neural Network Architecture:**  
 - **Pre-trained MobileNet Model** (Lightweight CNN)
 - Layers:
   - **Convolutional + ReLU Activation**
@@ -28,7 +28,7 @@ A real-time **driver drowsiness detection system** using **Convolutional Neural 
   - **Fully Connected (Dense) Layers**
   - **Softmax Activation** (Binary classification: Open vs. Closed eyes)
   
-📌 **Training Details:**  
+ **Training Details:**  
 - **Optimizer:** Adam
 - **Loss Function:** Categorical Crossentropy
 - **Batch Size:** 32
